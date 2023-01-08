@@ -1,0 +1,149 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">Tabaghi</h2>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Project</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="Search">
+                    <input class="srch" type="Search" name="" placeholder="type to text">
+                    <a href=""> <button class="btn">Search</button></a>
+                </div>
+            </div>
+            <div class="content">
+                    <h1>Welcome to <br><span>this</span> <br> Construction</h1>
+                    <p class="par">One of our company’s strongest personality traits is commitment. <br> We are committed to our clients, our team members, our industry and to each other. <br> Commitment is a trait that all the best teams and their members must possess.</p>
+
+
+                    <button class="cn"><a href="#">Join Us</a></button>
+
+                    <div class="form">
+                        <h2>Login Here</h2>
+                        <input type="email" name="email" placeholder="Enter Email Here">
+                        <input type="password" name="" placeholder="Enter Password Here">
+                        <button class="btnn"><a href="#">Login</a></button>
+
+
+                        <p class="link">Don't have an account<br>
+                        <a href="#">Sign up </a>Here</a></p>
+                        <p class="liw">log with </p>
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="glass">
+                <img src="p.jpg" style="width: 100%;">
+                <p class="op">
+                    The scope of B.T.CC (Boland Tabagheh Construction Company) working in the field of Architecture and Construction Industry B.T.CC provides consultancy services.</p>
+            </div>
+            <div class="glass">
+                <img src="pr.jpg" style="width: 100%;">
+                <p class="po">We are committed to a free basic order, a fair market economy and free competition. We abide by the laws of the countries in which we are located and respect their cultures.</p>
+            </div>
+        </div>
+
+
+          <div class="hero">
+            <h1 class="kla">Customer Reviews</h1>
+            <div class="review-box">
+              <div id="slide">
+                <div class="card">
+                    <div class="profile">
+                        <img src="get.jpg" alt="">
+                        <div>
+                            <h3>working</h3>
+                            <p>learning Website</p>
+                        </div> 
+                    </div>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia illo non magni suscipit dolore deleniti veritatis possimus at quam, consequuntur dignissimos iste libero cum optio perspiciatis, blanditiis similique incidunt vitae?</p>
+                </div>
+                <div class="card">
+                    <div class="profile">
+                        <img src="Mountains.1.jpg" alt="">
+                        <div>
+                            <h3>working</h3>
+                            <p>learning Website</p>
+                        </div> 
+                    </div>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia illo non magni suscipit dolore deleniti veritatis possimus at quam, consequuntur dignissimos iste libero cum optio perspiciatis, blanditiis similique incidunt vitae?</p>
+                </div>
+                <div class="card">
+                    <div class="profile">
+                        <img src="gg.jpg" alt="">
+                        <div>
+                            <h3>working</h3>
+                            <p>learning Website</p>
+                        </div> 
+                    </div>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia illo non magni suscipit dolore deleniti veritatis possimus at quam, consequuntur dignissimos iste libero cum optio perspiciatis, blanditiis similique incidunt vitae?</p>
+                </div>
+                <div class="card">
+                    <div class="profile">
+                        <img src="Mountains.jpg" alt="">
+                        <div>
+                            <h3>working</h3>
+                            <p>learning Website</p>
+                        </div> 
+                    </div>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia illo non magni suscipit dolore deleniti veritatis possimus at quam, consequuntur dignissimos iste libero cum optio perspiciatis, blanditiis similique incidunt vitae?</p>
+                </div>
+
+              </div>
+
+              <div class="slider">
+                <img src="up-arrow.png" id="upArrow">
+                <img src="images down-arrow.jpg" id="downArrow">
+              </div>
+            </div>
+          </div>
+
+
+
+          <script>
+            var slide = document.getElementById("slide");
+            var upArrow = document.getElementById("upArrow");
+            var downArrow = document.getElementById("downArrow");
+
+            let x = 0;
+
+            upArrow.onclick = function() {
+                if(x > "-900") {
+                x = x - 300;
+                slide.style.top = x + "px";
+                }
+            }
+            downArrow.onclick = function() {
+                if(x < 0) {
+                x = x + 300;
+                slide.style.top = x + "px";
+                }
+            }
+
+          </script>
+
+
+    </body>
+</html>
+
+
+
